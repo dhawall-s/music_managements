@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Manager</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        audio{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <audio controls autoplay loop ><source src="coffin_dance.mp3"></audio>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Music Manager</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="upload.php">Upload Music</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="playlists.php">Your Playlists</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.php">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logout.php">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="content">
+    <div class="container">
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Welcome to Music Manager</h2>
+                <p>Organize, upload, and enjoy your favorite music.</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero_image.png" alt="Music Manager">
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-item">
+                <h3>Upload Your Music</h3>
+                <img src="images.png" alt="Upload Music">
+                <p>Easily upload your favorite tracks and manage them.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Create Playlists</h3>
+                <a href="playlist.php"><img src="playlist2.jpg" alt="Create Playlists"></a>
+                <p>Create and organize playlists for every mood and occasion.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Discover New Music</h3>
+                
+                <a href="https://open.spotify.com/"><img src="spotify.png" alt="Discover Music"></a>
+                 <p>Explore new tracks and artists from our community.</p>
+            </div>
+        </section>
+
+        <section class="media">
+            <h2>Latest Uploads</h2>
+            <div class="media-gallery">
+                <div class="media-item">
+                  <a href="Tum Se(PagalWorld.com.sb).mp3"> <img src="tumse.jpg" alt="Song 1"> </a>  
+                    <p>tum se</p>
+                </div>
+                <div class="media-item">
+                    <a href="Angaaron_64(PagalWorld.com.sb).mp3"><img src="" alt="Song 2"></a>
+                    <p>Song Title 2</p>
+                </div>
+                <div class="media-item">
+                   <a href="Pushpa 2 Title Track_64(PagalWorld.com.sb).mp3"><img src="your-song-image3.jpg" 
+                            alt="Song 3"></a> 
+                    <p>Song Title 3</p>
+                </div>
+            </div>
+            <h2>Latest Videos</h2>
+            <div class="media-gallery">
+                <div class="media-item">
+                    <video controls>
+                        <source src="your-video1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video Title 1</p>
+                </div>
+                <div class="media-item">
+                    <video controls>
+                        <source src="your-video2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video Title 2</p>
+                </div>
+                <div class="media-item">
+                    <video controls>
+                        <source src="your-video3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video Title 3</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tags">
+            <h2>Popular Tags</h2>
+            <div class="tag-list">
+                <span class="tag">Rock</span>
+                <span class="tag">Pop</span>
+                <span class="tag">Jazz</span>
+                <span class="tag">Hip-Hop</span>
+                <span class="tag">Classical</span>
+            </div>
+        </section>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Music Manager. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
